@@ -1,0 +1,136 @@
+:root {
+  --coral: #FF4F5E;
+  --lilac: #D6C8FF;
+  --navy: #1C1F4C;
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--white);
+  color: var(--navy);
+}
+
+.header {
+  background-color: var(--navy);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  height: 60px;
+}
+
+.nav a {
+  color: var(--white);
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  border-bottom: 2px solid var(--coral);
+}
+
+.hero {
+  background: linear-gradient(to right, var(--lilac), var(--white));
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: var(--coral);
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-btn {
+  background-color: var(--coral);
+  color: var(--navy);
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.about {
+  padding: 3rem 2rem;
+  background-color: var(--white);
+  text-align: center;
+}
+
+.about h2 {
+  color: var(--coral);
+}
+
+.values {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.value {
+  width: 250px;
+  margin-bottom: 2rem;
+}
+
+.tryouts {
+  background-color: var(--coral);
+  color: var(--white);
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.cta-outline {
+  display: inline-block;
+  margin-top: 1rem;
+  border: 2px solid var(--white);
+  color: var(--white);
+  padding: 0.7rem 1.2rem;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.cta-outline:hover {
+  background-color: var(--white);
+  color: var(--coral);
+}
+
+.jerseys {
+  background-color: var(--lilac);
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.jersey-slider img {
+  width: 180px;
+  margin: 0.5rem;
+  border-radius: 8px;
+}
+
+.footer {
+  background-color: var(--navy);
+  color: var(--white);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.footer-links a {
+  color: var(--white);
+  text-decoration: none;
+  margin: 0 1rem;
+  display: inline-block;
+}
+
+.footer-links a:hover {
+  color: var(--coral);
+}
