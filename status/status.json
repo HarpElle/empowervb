@@ -1,0 +1,28 @@
+{
+  "schema": "harpelle-status/1",
+  "repo": "HarpElle/empowervb",
+  "name": "EmpowerVB",
+  "kind": "Static club site",
+  "stage": "dormant",
+  "health": "idle",
+  "summary": "Club site; no change since April 2025.",
+  "updatedAt": "2026-09-04",
+  "updatedBy": "Claude Code (Fable 5.1)",
+  "current": [
+    "No activity since 2025-04-07."
+  ],
+  "inFlight": [],
+  "blockers": [],
+  "decisions": [
+    "Archive."
+  ],
+  "next": [],
+  "later": [],
+  "intentions": "Archive candidate.",
+  "links": [
+    {
+      "label": "Repo",
+      "url": "https://github.com/HarpElle/empowervb"
+    }
+  ]
+}
